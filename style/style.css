@@ -10,7 +10,7 @@
 }
 
 .bg-image {
-    background-image: url(../images/Banner\ Image.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/Banner\ Image.png);
     width: 1320px;
     height: 600px;
     margin: auto;
@@ -18,16 +18,37 @@
     text-align: center;
 }
 
-
 .bg-image>p {
+    font-family: 'Merriweather', serif;
     padding-top: 200px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .bg-image>h1 {
-    font-size: 48px;
-    width: 30%;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    width: 50%;
     margin: auto;
+}
+
+.offer-description p {
+    color: #F00;
+}
+
+.offer-description h1 {
+    color: #F00;
+    font-size: 85px;
+    padding-bottom: 40px;
+}
+
+.offer-description h2 {
+    color: 070211;
+    font-size: 45px;
+}
+
+.offer-image img {
+    width: 650.9px;
+    height: 500px;
 }
 
 .main-section {
@@ -38,7 +59,7 @@
 
 .main-section>div {
     width: 30%;
-    padding: 120px;
+    padding: 120px 140px;
 }
 
 .circle {
@@ -75,4 +96,86 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
+}
+
+.section-categories {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-description {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.offer-img {
+    padding-top: 50px;
+}
+
+.midnight-party {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    color: white;
+}
+
+.offer-content {
+    padding: 120px 550px 125px 290px;
+}
+
+.offer-content>h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    margin: auto;
+    text-align: left;
+}
+
+.offer-content>p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.join-btn {
+    opacity: 100%;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.location {
+    background: linear-gradient(#e47e7e, #FF000000);
+    width: 1320px;
+    height: 482px;
+    align-items: center;
+}
+
+.event-time {
+    padding-top: 100px;
+}
+
+.event-time p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.event-time span {
+    color: #F00;
+}
+
+.join-now{
+    margin-top: 40px;
+    margin-left: 600px;
+    padding: 10px;
+    background-color: #F00;
+    color: white;
+    border: none;
 }
