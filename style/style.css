@@ -42,7 +42,7 @@
 }
 
 .offer-description h2 {
-    color: 070211;
+    color: #070211;
     font-size: 45px;
 }
 
@@ -67,12 +67,16 @@
     border-radius: 50%;
     height: 350px;
     width: 350px;
-    padding: 20px
+    padding: 25px;
+    margin-left: -170px;
 }
 
-.second {
-    height: 350px;
+.circle-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 350px;
+    height: 350px;
 }
 
 .second>img {
@@ -80,9 +84,14 @@
     width: 350px;
 }
 
+.offer {
+    margin-left: 42px;
+}
+
 .offer .new-year {
     font-family: Inter;
     font-size: 24px;
+    margin-bottom: 16px;
     color: #F00;
 }
 
@@ -90,12 +99,31 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
+    margin-bottom: 22px;
 }
 
 .para-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
+    width: 393px;
     font-size: 20px;
+}
+
+.new-offer {
+    margin-left: auto;
+}
+
+.new-offer p {
+    width: 276px;
+}
+
+.new-offer h1 {
+    margin-bottom: 16px;
+    color: #F00;
+}
+
+.new-offer img {
+    margin-top: 43px;
 }
 
 .section-categories {
@@ -120,14 +148,28 @@
     color: white;
 }
 
+.midnight-party-image {
+    display: flex;
+    justify-content: right;
+    margin-top: -475px;
+    margin-right: 140px;
+}
+
 .offer-content {
     padding: 120px 550px 125px 290px;
+    /* margin-right: 200; */
+    margin-left: -126px;
 }
 
 .offer-content>h1 {
+    width: 642px;
     font-family: 'Merriweather', serif;
     font-size: 50px;
     margin: auto;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
     text-align: left;
 }
 
@@ -135,6 +177,7 @@
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
+    margin-top: 20px;
     font-weight: 400;
 }
 
@@ -143,6 +186,9 @@
     text-align: center;
     font-family: Inter;
     background: transparent;
+    border: none;
+    margin-left: 25px;
+    margin-top: 28px;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -183,17 +229,17 @@
     padding: 10px;
     background-color: #F00;
     color: white;
-
     border: none;
     border-radius: 8px;
 }
 
 .portfolio .portfolio-description {
-    padding-left: 205px;
+    margin-left: 204px;
 }
 
 .portfolio .portfolio-description h1 {
     color: #070211;
+    margin-bottom: 22px;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
@@ -209,6 +255,7 @@
 }
 
 .portfolio-description .description {
+    margin-bottom: 16px;
     color: #F00;
     font-size: 24px;
     font-weight: 600;
@@ -225,10 +272,7 @@
     width: 1320px;
     height: 616px;
     border-radius: 16px;
-    margin-bottom: 120px;
-    margin-top: 120px;
-    margin-left: 180px;
-    margin-right: 140px;
+    margin: 120px auto;
     background: rgba(255, 0, 0, 0.05);
 }
 
@@ -284,7 +328,7 @@
     font-weight: 400;
 }
 
-.subscribe label {
+.subscribe .subscribe-button {
     padding: 26px;
     padding-top: 22px;
     color: #fff;
@@ -369,4 +413,11 @@ footer {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+}
+
+.subscribe-button {
+    background: transparent;
+    border: 0;
+    color: white;
+
 }
